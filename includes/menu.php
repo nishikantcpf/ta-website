@@ -126,3 +126,8 @@
         </div>
     </div>
 </nav>
+<div id="code-of-cavalier text-center">
+      <marquee style="font-weight:bold" scrollamount="2" onMouseOver="this.stop();" onMouseOut="this.start();">
+        *** Flash Info ***
+      </marquee>
+</div>
