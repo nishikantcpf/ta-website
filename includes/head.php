@@ -9,17 +9,39 @@
     <script src="js/submenu.js" type="text/javascript"></script>
     <!-- <link rel="icon" type="image/x-icon" href="/img/fevicon/favicon.ico"> -->
     <link rel="shortcut icon" href="./img/fevicon/favicon.ico">
-    
     <style>
        
+        /* Custom CSS for carousel arrows in black */
+        /* .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: black; /* Background color of the arrow icons */
+          
+        /* } */ 
+
+        /* Override default SVG icons with black arrows */
+        .carousel-control-prev-icon {
+            background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 fill%3D%22black%22 viewBox%3D%220 0 16 16%22%3E%3Cpath fill-rule%3D%22evenodd%22 d%3D%22M11.354 1.146a.5.5 0 0 1 0 .708L5.707 7.5l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z%22/%3E%3C/svg%3E');
+        }
+
+        .carousel-control-next-icon {
+            background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 fill%3D%22black%22 viewBox%3D%220 0 16 16%22%3E%3Cpath fill-rule%3D%22evenodd%22 d%3D%22M4.646 1.146a.5.5 0 0 0 0 .708L10.293 7.5 4.646 13.146a.5.5 0 1 0 .708.708l6-6a.5.5 0 0 0 0-.708l-6-6a.5.5 0 0 0-.708 0z%22/%3E%3C/svg%3E');
+        }
+    </style>
+    <style>
+        .quick-links img {
+            width: 150px;  /* Set a fixed width */
+            height: 50px; /* Set a fixed height */
+            object-fit: cover; /* Ensure the image fits the specified dimensions */
+        }
+        
         .header-banner {
             background-color: #000;
-            color: #FFD700;
+            color: #e3c488;
             padding: 10px 0;
         }
 
         .navbar-dark .navbar-nav .nav-link {
-            color: #FFD700;
+            color: #e3c488;
         }
 
         .dropdown-menu {
@@ -27,12 +49,12 @@
         }
 
         .dropdown-item {
-            color: #FFD700;
+            color: #e3c488;
         }
 
         .dropdown-item:hover {
             background-color: #495057;
-            color: #FFD700;
+            color: #e3c488;
         }
 
         .code-of-cavalier {

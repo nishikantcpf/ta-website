@@ -51,10 +51,10 @@
 
                         <li><a class="dropdown-item" href="#">TA Rules and Reg</a></li>
                         <li><a class="dropdown-item" href="#">Policies/SoP</a></li>
-                        <li><a class="dropdown-item" href="#">TA-1</a></li>
-                        <li><a class="dropdown-item" href="#">TA-2</a></li>
-                        <li><a class="dropdown-item" href="#">TA-3</a></li>
-                        <li><a class="dropdown-item" href="#">TA-4</a></li>
+                        <li><a class="dropdown-item" href="ta-1.php">TA-1</a></li>
+                        <li><a class="dropdown-item" href="ta-2.php">TA-2</a></li>
+                        <li><a class="dropdown-item" href="ta-3.php">TA-3</a></li>
+                        <li><a class="dropdown-item" href="ta-4.php">TA-4</a></li>
 
 
                     </ul>
@@ -97,13 +97,12 @@
                         <li><a class="dropdown-item" href="#">Achievements</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown"><a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Good Reads</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                        <li><a class="dropdown-item" href="#">Present squad</a></li>
-
-
-                    </ul>
-                </li>
+                <!-- <li class="nav-item dropdown"><a class="nav-link  dropdown-toggle" href="pdf/Prominent-personalities.pdf" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Good Reads</a> -->
+                    <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                        <li><a class="dropdown-item" href="#">Present squad</a></li> -->
+                    <!-- </ul> -->
+                <!-- </li> -->
+                <li class="nav-item"><a class="nav-link" href="pdf/Prominent-personalities.pdf">Present squad</a></li>
                 <li class="nav-item dropdown"><a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Army Web</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
                     <li class="nav-item "><a class="dropdown-item" href="#">MI -11</a></li>
